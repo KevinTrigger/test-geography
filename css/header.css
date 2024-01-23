@@ -1,0 +1,29 @@
+.header {
+  height: 8vh;
+  background-color: #00f0e1;
+  border-bottom: 2px solid #00e1d3;
+}
+
+.header__content {
+  height: 100%;
+}
+
+
+.content__wrap {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.content__search {
+  display: flex;
+  align-items: center;
+}
+
+.content__search img {
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}

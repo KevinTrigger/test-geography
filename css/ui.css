@@ -1,0 +1,22 @@
+.funcButton {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #166bc3;
+  padding: 6px;
+  transition: .2s all ease-in-out;
+  margin-right: 15px;
+}
+
+.funcButton:hover {
+  background-color: #166bf9;
+  /* background-color: #fff; */
+}
+
+.search-input {
+  padding: 3px;
+  min-width: 210px;
+  background-color: #fff;
+  font-size: 14px;
+  border: 1px solid #00e1d3;
+  border-radius: 5px;
+}
