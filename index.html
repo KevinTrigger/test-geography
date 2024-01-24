@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Test Exercise</title>
+  <title>План-календарь, 2024г.</title>
 </head>
 <body>
   <div class="page">
@@ -32,52 +32,19 @@
           
           <div class="main__panel">
             <span class="panel__last-month">
-              <img src="./images/arrow-left.svg" alt="" class="arrow arrow-left">
+              <img id="prev" src="./images/arrow-left.svg" alt="" class="arrow arrow-prev">
             </span>
-            <span class="panel__current-date">Январь 2024</span>
+            <span class="panel__current-date">date</span>
             <span class="panel__next-month">
-              <img src="./images/arrow-left.svg" alt="" class="arrow arrow-right">
+              <img id="next" src="./images/arrow-left.svg" alt="" class="arrow arrow-next">
             </span>
             <span class="panel__active-day">Сегодня</span>
           </div>
 
           <div class="main__calendar">
             <div class="calendar__wrap">
-              <div class="calendar__widget"><span class="widget__date">Понедельник, 1</span></div>
-              <div class="calendar__widget"><span class="widget__date">Вторник, 2</span></div>
-              <div class="calendar__widget"><span class="widget__date">Среда, 3</span></div>
-              <div class="calendar__widget"><span class="widget__date">Четверг, 4</span></div>
-              <div class="calendar__widget"><span class="widget__date">Пятница, 5</span></div>
-              <div class="calendar__widget"><span class="widget__date">Суббота, 6</span></div>
-              <div class="calendar__widget"><span class="widget__date">Воскресенье, 7</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
-              <div class="calendar__widget"><span class="widget__date">1</span></div>
+              <ul class="calendar__list days">
+              </ul>
             </div>
           </div>
 
@@ -85,5 +52,7 @@
       </main>
     </div>
   </div>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

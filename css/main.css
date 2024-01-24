@@ -1,5 +1,5 @@
 :root {
-  --main-border-style: 1px solid #00e1d3;
+  --main-border-style: 1px solid #dddddd;
 }
 
 .main {
@@ -19,13 +19,19 @@
   border-radius: 5px;
 }
 
-.arrow-right {
+.arrow-next {
   transform: rotate(180deg);
+}
+
+.arrow-disable {
+  opacity: 0.4;
 }
 
 .panel__current-date {
   font-size: 20px;
   margin: 0 20px;
+  min-width: 180px;
+  text-align: center;
 }
 
 .panel__active-day {
@@ -37,6 +43,9 @@
 
 .calendar__wrap {
   margin-top: 25px;
+}
+
+.calendar__list {
   display: grid;
   grid-template-columns: repeat(7, 0fr);
   grid-template-rows: repeat(0, 150px);
@@ -47,6 +56,19 @@
   width: 180px;
   height: 150px;
   padding: 7px;
+  transition: .15s all ease-in-out;
+}
+
+.calendar__widget {
+  color: #bcbcbc;
+}
+
+.calendar__widget:hover {
+  background-color: #ebebeb;
+}
+
+.disable, .active {
+  background-color: #ebebeb;
 }
 
 .widget__date {
